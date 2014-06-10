@@ -1,0 +1,7 @@
+#please use the following format as input of source vertex/vetices
+>-1/count #complete(-1) or size of subset(count)
+>vid_0
+>vid_1
+...
+...
+>vid_n

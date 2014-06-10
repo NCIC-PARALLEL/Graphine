@@ -1,0 +1,16 @@
+This is a beta version of Graphine project.
+See ./usr/ for more exmaples.
+
+
+For GRE developers
+-->Variable And Type Naming Specification
+
+#type def(_t):
+class XY {};
+typedef XY XY_t;
+
+#varible point(_p):
+XY_t* xY_p;
+
+#varible reference(_r):
+XY_t& xY_r;

@@ -1,0 +1,39 @@
+#Text Edge List File
+##Format-1(TSV): {(src, dest)}, where vertex ID is integer start from 0.
+>0 1 
+>0 2
+>1 2
+
+##Format-2(SNAP): same with TSV, except that comments('# comment') are permited.
+>#nV: 3 nE:3
+>0 1
+>0 2
+>1 2
+
+
+##Format-3(Adj): {(vid, out degree, targetID-0, ...)}
+>0 2 1 2
+>1 1 2
+>2 0
+***********************************************************
+#Binary Partitions
+
+##Global Information: prefix.meta
+>nVertices, nEdges, nParts
+>statistics(optional)
+
+##Local Graph: prefix.subgraph.csr.i
+>nVertices, nEdges, nScatters, nCombiners 
+>edgeIndex[]
+>edgeList[]
+
+##Local Graph Property: subgraph.property.i
+>VertexProperty[]
+>Edgeproperty[]
+
+##LVID2VID Index:subgraph.lvid2vid.i
+>
+##VID2LVID Index:subgraph.vid2lvid.i
+>
+##Scatter Map: subgraph.scattermap.i
+>
