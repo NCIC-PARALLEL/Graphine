@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a beta version of Graphine project.
 See ./usr/ for more exmaples.
 
@@ -14,3 +15,6 @@ XY_t* xY_p;
 
 #varible reference(_r):
 XY_t& xY_r;
+=======
+This is a beta version of Graphine (GRE).
+>>>>>>> 9dbc243ab13f6a4fb5533c280388c4d44e8a8b0e
